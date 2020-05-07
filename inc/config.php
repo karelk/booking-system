@@ -3,7 +3,7 @@
   function db_connect()
   {
     try {
-      $handle = new PDO("mysql:host=localhost;dbname=alveo;charset=latin2", 'alveo', 'SuybKVr8UI6EmixX');
+      $handle = new PDO("mysql:host=localhost;dbname=booking;charset=latin2", 'localhost', 'YOUR-MYSQL-PASSWORD');
     }
     catch(PDOException $e) {
       Die('ERR');
